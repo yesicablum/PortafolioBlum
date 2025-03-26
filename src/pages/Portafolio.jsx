@@ -32,12 +32,25 @@ const Portafolio = () => {
                     <h2>Proyectos</h2>
                     <div className="projects">
                         <div className="project-card">
-                            <h3>Proyecto 1</h3>
-                            <p>Descripción breve del proyecto.</p>
+                            <h3>GreenWork</h3>
+                            <p>GreenWork es una plataforma web que conecta freelancers locales con oportunidades laborales en el Corredor Ecológico de Villavicencio (2,900 ha), entre el campus San Juan Eudes y la granja Agroecológica UNIMINUTO. Su objetivo es fomentar el empleo y reducir la informalidad en la prestación de servicios.</p>
+                            <a href="https://github.com/StarFront/microproyectos_corredor" target="_blank" rel="noopener noreferrer">
+                                <img src="logo-github.png" alt="GitHub" />
+                            </a>
                         </div>
                         <div className="project-card">
-                            <h3>Proyecto 2</h3>
-                            <p>Descripción breve del proyecto.</p>
+                            <h3>Gestión de productos</h3>
+                            <p>El aplicativo web permite la gestión de productos mediante un CRUDE, optimizando el control de inventario y ventas en tiempo real. También ofrece la opción de descargar reportes detallados de ventas e inventario para análisis y toma de decisiones.</p>
+                            <a href="https://github.com/yesicablum/Frontendcockroachdb" target="_blank" rel="noopener noreferrer">
+                                <img src="https://drive.google.com/file/d/1MRDWYUdmwmy_XJ3P-p030zEsPlLpT83n/view?usp=sharing" alt="GitHub" />
+                            </a>
+                        </div>
+                        <div className="project-card">
+                            <h3>Calculadora Funcional</h3>
+                            <p>El proyecto Calculadora Funcional es una aplicación desarrollada para realizar operaciones matemáticas de manera eficiente e intuitiva. Su implementación permite ejecutar cálculos básicos con una interfaz amigable y funcional.</p>
+                            <a href=" https://github.com/yesicablum/CALCULADORA" target="_blank" rel="noopener noreferrer">
+                                <img src="logo-github.png" alt="GitHub" />
+                            </a>
                         </div>
                     </div>
                 </section>
