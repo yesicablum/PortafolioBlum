@@ -2,7 +2,7 @@ const Portafolio = () => {
     return (
         <>
             <header>
-                <div className="container">
+                <div className="header">
                     <h1>Mi Portafolio</h1>
                     <nav>
                         <ul>
@@ -13,7 +13,7 @@ const Portafolio = () => {
                     </nav>
                 </div>
             </header>
-            <main>
+            <main className="container">
                 <div className="boton-scroll">
                     <a href="#about" >
                         <img src="magdalena.png" alt="" />

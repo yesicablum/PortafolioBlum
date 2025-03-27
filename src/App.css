@@ -14,11 +14,19 @@ header {
   padding: 1rem 0;
 }
 
-header .container {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 nav ul {
@@ -144,7 +152,6 @@ footer {
   align-items: center;
   gap: 5rem;
   justify-content: space-evenly;
-  padding: 0 25rem;
   flex-direction: column;
   height: 600px;
 }
@@ -171,8 +178,7 @@ footer {
 .typewriter p {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  white-space: wrap; /* Keeps the content on a single line */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(40, end),
@@ -267,7 +273,8 @@ footer {
 
   /* Tipo de escritura */
   .typewriter p {
-    font-size: 0.8rem; /* Ajusta el tamaño del texto */
+    font-size: 1rem; /* Reduce el tamaño del texto */
+    max-width: 80%; /* Ajusta el ancho máximo */
   }
 
   /* Botón de Scroll */
@@ -301,5 +308,9 @@ footer {
   .cv-button {
     padding: 0.5rem 1rem; /* Reduce el tamaño del botón */
     font-size: 0.8rem; /* Ajusta el tamaño del texto del botón */
+  }
+  .typewriter p {
+    font-size: 0.8rem; /* Reduce aún más el texto en pantallas pequeñas */
+    max-width: 70%; /* Ajusta el ancho máximo para pantallas muy pequeñas */
   }
 }
