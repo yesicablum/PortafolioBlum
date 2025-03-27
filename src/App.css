@@ -2,14 +2,14 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8efe0;
-  color: #3e2723;
+  background-color: #f4e9f6;
+  color: #73089e;
   text-align: center;
 }
 
 /* Header */
 header {
-  background-color: #8d6e63;
+  background-color: #AA60C8;
   color: #fff;
   padding: 1rem 0;
 }
@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 
 h2 {
-  color: #5d4037;
+  color: #73089e;
 }
 
 .technologies {
@@ -120,7 +120,7 @@ input, textarea, button {
 }
 
 button {
-  background-color: #8d6e63;
+  background-color: #AA60C8;
   color: #fff;
   border: none;
   font-weight: bold;
@@ -128,12 +128,12 @@ button {
 }
 
 button:hover {
-  background-color: #5d4037;
+  background-color: #AA60C8;
 }
 
 /* Footer */
 footer {
-  background-color: #8d6e63;
+  background-color: #AA60C8;
   color: #fff;
   padding: 1rem 0;
 }
@@ -142,7 +142,7 @@ footer {
 .cv-button {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #8d6e63;
+  background-color: #AA60C8;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -151,7 +151,7 @@ footer {
 }
 
 .cv-button:hover {
-  background-color: #5d4037;
+  background-color: #D69ADE;
 }
 .perfil {
   display: flex;
@@ -180,6 +180,9 @@ footer {
 .project-card img{
   width: 100%;
 }
+.Perfil-content p {
+  font-size: 1.2rem;
+}
 
 /* Estilo base para el efecto */
 .typing {
@@ -188,6 +191,8 @@ footer {
   white-space: nowrap; /* Mantiene el texto en una sola línea */
   margin: 0 auto; /* Centra el texto */
   letter-spacing: .15em; /* Espaciado entre letras */
+  display: inline-block;
+  font-size: 3.5rem;
   animation: 
     typing 3.5s steps(40, end), /* Efecto de escritura */
     blink-caret .75s step-end infinite; /* Parpadeo del cursor */

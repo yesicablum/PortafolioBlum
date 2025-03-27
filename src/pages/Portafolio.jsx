@@ -21,8 +21,10 @@ const Portafolio = () => {
                 </div>
                 <section id="about" className="section perfil">
                     <div className="Perfil-content">
-                        <h1 className="typing" >Sobre Mí</h1>
-                        <p>Hola, soy [Tu Nombre]. Soy desarrollador web apasionado por crear soluciones modernas y funcionales.</p>
+                        <div>
+                            <h1 className="typing" >Sobre Mí</h1>
+                        </div>
+                        <p>¡Hola! Soy Yesica Natalia Blum Carrero, estudiante de Desarrollo de Software con una gran pasión por la tecnología y la programación. Me encanta aprender y explorar diferentes áreas del desarrollo, desde bases de datos hasta diseño web, siempre buscando mejorar mis habilidades y crear soluciones eficientes.Mi enfoque es aprender de todo un poco, combinando habilidades de frontend y backend para construir aplicaciones completas y eficientes. Me motiva seguir creciendo como desarrolladora y enfrentar nuevos desafíos en el mundo de la tecnología.</p>
                     </div>
                     <div className="image-container">
                         <img src="2.jpg" alt="Mi Foto" />
