@@ -202,3 +202,104 @@ footer {
   width: 4rem;
   height: auto;
 }
+
+@media (max-width: 768px) {
+  /* Ajustes generales */
+  body {
+    text-align: left; /* Quitar la alineación central si no es necesaria */
+    padding: 1rem; /* Agregar espacio alrededor */
+  }
+
+  /* Header */
+  header .container {
+    flex-direction: column; /* Coloca el logo y el menú en columnas */
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column; /* Coloca los links en una lista vertical */
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  /* Secciones */
+  .section {
+    padding: 2rem 1rem; /* Reduce el padding para pantallas más pequeñas */
+  }
+
+  .technologies {
+    flex-direction: column; /* Coloca las tecnologías en una columna */
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .tech {
+    width: 100%; /* Haz que ocupen todo el ancho */
+    text-align: center; /* Alinear texto al centro */
+  }
+
+  /* Proyectos */
+  .projects {
+    flex-direction: column; /* Coloca los proyectos en una columna */
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%; /* Ajusta el ancho a casi toda la pantalla */
+  }
+
+  /* Formulario */
+  form {
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  /* Imagen de Perfil */
+  .perfil {
+    flex-direction: column; /* Cambia a columna en dispositivos móviles */
+    padding: 0; /* Reduce márgenes */
+    gap: 2rem; /* Ajusta el espaciado */
+  }
+
+  .image-container img {
+    width: 10rem; /* Reduce el tamaño de la imagen */
+  }
+
+  /* Tipo de escritura */
+  .typewriter p {
+    font-size: 0.8rem; /* Ajusta el tamaño del texto */
+  }
+
+  /* Botón de Scroll */
+  .boton-scroll img {
+    width: 3rem; /* Reduce el tamaño del botón */
+  }
+}
+
+
+@media (max-width: 480px) {
+  /* Header */
+  header {
+    text-align: center; /* Centrar texto en pantallas muy pequeñas */
+  }
+
+  nav ul {
+    align-items: center; /* Centra los enlaces */
+  }
+
+  /* Imagen de perfil */
+  .image-container img {
+    width: 8rem; /* Haz la imagen más pequeña */
+  }
+
+  /* Texto tipo "Sobre mí" */
+  .Perfil-content {
+    padding: 0 1rem; /* Reduce padding en los textos */
+  }
+
+  /* Botón Hoja de Vida */
+  .cv-button {
+    padding: 0.5rem 1rem; /* Reduce el tamaño del botón */
+    font-size: 0.8rem; /* Ajusta el tamaño del texto del botón */
+  }
+}
