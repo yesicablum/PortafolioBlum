@@ -159,7 +159,7 @@ footer {
   gap: 5rem;
   justify-content: space-evenly;
   flex-direction: column;
-  height: 600px;
+  margin-top: 2rem;
 }
 
 .image-container img{
