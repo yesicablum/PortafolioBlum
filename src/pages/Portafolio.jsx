@@ -32,11 +32,11 @@ const Portafolio = () => {
                 <section id="technologies" className="section skills">
                     <h2>Tecnologías que uso</h2>
                     <div className="technologies">
-                        <div className="tech">HTML</div>
-                        <div className="tech">CSS</div>
-                        <div className="tech">JavaScript</div>
-                        <div className="tech">React</div>
-                        <div className="tech">Node.js</div>
+                        <div className="tech"><img src="piton.png" alt="" /></div>
+                        <div className="tech"><img src="visual-basico.png" alt="" /></div>
+                        <div className="tech"><img src="javascript.png" alt="" /></div>
+                        <div className="tech"><img src="mysql.png" alt="" /></div>
+                        <div className="tech"><img src="html.png" alt="" /></div>
                     </div>
                 </section>
                 <section id="projects" className="section">

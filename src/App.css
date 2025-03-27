@@ -60,17 +60,23 @@ h2 {
 .technologies {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 4rem; /* Reduce el espacio para mejor ajuste en pantallas pequeñas */
   flex-wrap: wrap;
 }
 
 .tech {
   padding: 1rem;
-  background-color: #d7ccc8;
-  border: 1px solid #8d6e63;
   border-radius: 5px;
   font-weight: bold;
   transition: transform 0.3s ease-in-out;
+  flex: 0 1 auto; /* Permite que los elementos se adapten sin forzarlos */
+  text-align: center;
+}
+
+.tech img {
+  width: 100%; /* Hace que la imagen se ajuste a su contenedor */
+  max-width: 80px; /* Establece un tamaño máximo */
+  height: auto; /* Mantiene la proporción */
 }
 
 .tech:hover {
@@ -236,14 +242,11 @@ footer {
   }
 
   .technologies {
-    flex-direction: column; /* Coloca las tecnologías en una columna */
-    gap: 1rem;
-    align-items: center;
+    gap: 2rem; /* Reduce la separación en móviles */
   }
 
-  .tech {
-    width: 100%; /* Haz que ocupen todo el ancho */
-    text-align: center; /* Alinear texto al centro */
+  .tech img {
+    max-width: 60px; /* Reduce el tamaño de las imágenes en pantallas pequeñas */
   }
 
   /* Proyectos */
