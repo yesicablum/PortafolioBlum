@@ -20,8 +20,8 @@ const Portafolio = () => {
                     </a>
                 </div>
                 <section id="about" className="section perfil">
-                    <div className="Perfil-content typewriter">
-                        <h1>Sobre Mí</h1>
+                    <div className="Perfil-content">
+                        <h1 className="typing" >Sobre Mí</h1>
                         <p>Hola, soy [Tu Nombre]. Soy desarrollador web apasionado por crear soluciones modernas y funcionales.</p>
                     </div>
                     <div className="image-container">
@@ -45,7 +45,7 @@ const Portafolio = () => {
                         <div className="project-card">
                             <h3>GreenWork</h3>
                             <a href="https://github.com/StarFront/microproyectos_corredor" target="_blank" rel="noopener noreferrer">
-                                <img src="corredor.png" alt="GitHub" style={{ width: '300px', height: 'auto' }} />
+                                <img src="corredor.png" alt="GitHub" />
                             </a>
                             <p>GreenWork es una plataforma web que conecta freelancers locales con oportunidades laborales en el Corredor Ecológico de Villavicencio (2,900 ha), entre el campus San Juan Eudes y la granja Agroecológica UNIMINUTO. Su objetivo es fomentar el empleo y reducir la informalidad en la prestación de servicios.</p>
 
@@ -53,7 +53,7 @@ const Portafolio = () => {
                         <div className="project-card">
                             <h3>Gestión de productos</h3>
                             <a href="https://github.com/yesicablum/Frontendcockroachdb" target="_blank" rel="noopener noreferrer">
-                                <img src="gestion.jpg" alt="GitHub" style={{ width: '300px', height: 'auto' }} />
+                                <img src="gestion.jpg" alt="GitHub" />
                             </a>
                             <p>El aplicativo web permite la gestión de productos mediante un CRUDE, optimizando el control de inventario y ventas en tiempo real. También ofrece la opción de descargar reportes detallados de ventas e inventario para análisis y toma de decisiones.</p>
 
@@ -61,7 +61,7 @@ const Portafolio = () => {
                         <div className="project-card">
                             <h3>Calculadora Funcional</h3>
                             <a href=" https://github.com/yesicablum/CALCULADORA" target="_blank" rel="noopener noreferrer">
-                                <img src="calculadora.png" alt="GitHub" style={{ width: '300px', height: 'auto' }} />
+                                <img src="calculadora.png" alt="GitHub" />
                             </a>
                             <p>El proyecto Calculadora Funcional es una aplicación desarrollada para realizar operaciones matemáticas de manera eficiente e intuitiva. Su implementación permite ejecutar cálculos básicos con una interfaz amigable y funcional.</p>
                            

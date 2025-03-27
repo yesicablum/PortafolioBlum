@@ -156,10 +156,6 @@ footer {
   height: 600px;
 }
 
-.skills {
-  height: 300px;
-}
-
 .image-container img{
     width: 15rem; /* Ajusta el tamaño de la imagen */
     height: auto; /* Mantiene las proporciones originales */
@@ -175,25 +171,31 @@ footer {
   padding: 0 5rem;
 }
 
-.typewriter p {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: wrap; /* Keeps the content on a single line */
-  letter-spacing: .15em; /* Adjust as needed */
+.project-card img{
+  width: 100%;
+}
+
+/* Estilo base para el efecto */
+.typing {
+  overflow: hidden; /* Evita que el texto salga del contenedor */
+  border-right: .15em solid orange; /* Cursor de escritura */
+  white-space: nowrap; /* Mantiene el texto en una sola línea */
+  margin: 0 auto; /* Centra el texto */
+  letter-spacing: .15em; /* Espaciado entre letras */
   animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    typing 3.5s steps(40, end), /* Efecto de escritura */
+    blink-caret .75s step-end infinite; /* Parpadeo del cursor */
 }
 
-/* The typing effect */
+/* Animación de máquina de escribir */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { width: 0; } /* Empieza sin ancho */
+  to { width: 100%; } /* Se expande al ancho del texto */
 }
 
-/* The typewriter cursor effect */
+/* Animación del cursor */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
+  from, to { border-color: transparent; }
   50% { border-color: orange; }
 }
 
@@ -255,6 +257,10 @@ footer {
     width: 90%; /* Ajusta el ancho a casi toda la pantalla */
   }
 
+  .project-card img{
+    width: 15rem;
+  }
+
   /* Formulario */
   form {
     width: 100%; /* Ocupa todo el ancho disponible */
@@ -267,14 +273,13 @@ footer {
     gap: 2rem; /* Ajusta el espaciado */
   }
 
-  .image-container img {
-    width: 10rem; /* Reduce el tamaño de la imagen */
+  .project-card img{
+    width: 100%;
   }
 
-  /* Tipo de escritura */
-  .typewriter p {
+  .typing {
+    max-width: 90%; /* Limita el ancho máximo */
     font-size: 1rem; /* Reduce el tamaño del texto */
-    max-width: 80%; /* Ajusta el ancho máximo */
   }
 
   /* Botón de Scroll */
@@ -304,13 +309,17 @@ footer {
     padding: 0 1rem; /* Reduce padding en los textos */
   }
 
+  .project-card img{
+    width: 100%;
+  }
+
   /* Botón Hoja de Vida */
   .cv-button {
     padding: 0.5rem 1rem; /* Reduce el tamaño del botón */
     font-size: 0.8rem; /* Ajusta el tamaño del texto del botón */
   }
-  .typewriter p {
-    font-size: 0.8rem; /* Reduce aún más el texto en pantallas pequeñas */
-    max-width: 70%; /* Ajusta el ancho máximo para pantallas muy pequeñas */
+  .typing {
+    font-size: 0.8rem; /* Reduce aún más el tamaño del texto en pantallas pequeñas */
+    max-width: 80%; /* Limita el ancho máximo para pantallas pequeñas */
   }
 }
