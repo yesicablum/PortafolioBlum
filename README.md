@@ -1,12 +1,42 @@
-# React + Vite
+# Portafolio Personal - Yesica Blum
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web personal que presenta mis habilidades, tecnologías favoritas y proyectos desarrollados.
 
-Currently, two official plugins are available:
+## 🧠 Sobre mí
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ¡Hola! Soy Yesica Natalia Blum Carrero, estudiante de Desarrollo de Software con una gran pasión por la tecnología. Me encanta aprender, explorar distintas áreas del desarrollo y crear soluciones eficientes. Este portafolio representa mi crecimiento, enfoque en frontend/backend y mi entusiasmo por la tecnología.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS
+- Componentes reutilizables
+- Diseño responsivo
+
+## 🗂 Estructura del Proyecto
+```
+/PORTAFOLIO
+├── public/
+│ └── *.png / *.jpg # Imágenes del portafolio
+├── src/
+│ ├── components/
+│ │ ├── About.jsx
+│ │ ├── Footer.jsx
+│ │ ├── Header.jsx
+│ │ └── Projects.jsx
+│ ├── pages/
+│ │ └── Portafolio.jsx
+│ ├── App.jsx / App.css
+│ ├── index.css
+│ └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+```
+
+## 🌐 Deploy
+
+Mi portafolio está disponible en:  
+🔗 **[https://portafolio-blum.vercel.app](https://portafolio-blum.vercel.app)**
